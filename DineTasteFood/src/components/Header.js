@@ -10,7 +10,6 @@ import {
 import { BiSolidLogInCircle } from "react-icons/bi";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../assets/f.png";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
@@ -37,7 +36,6 @@ const Header = () => {
       <div className="max-w-7xl container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3">
-          <img src={logo} alt="DineTaste Logo" className="h-10 w-auto" />
           <span className="font-extrabold text-2xl tracking-wide logo">
             DineTaste
           </span>

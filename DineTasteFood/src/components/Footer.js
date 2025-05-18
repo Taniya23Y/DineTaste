@@ -1,4 +1,3 @@
-import LOGO_Image from "../assets/f.png";
 import { MdMarkEmailRead } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { MdPlace } from "react-icons/md";
@@ -14,7 +13,6 @@ const Footer = () => {
           {/* Logo & Contact */}
           <div className="flex flex-col items-center md:items-start md:w-1/5 text-center md:text-left">
             <div className="flex items-center mb-3">
-              <img className="h-10 mr-3" src={LOGO_Image} alt="logo-foodLogo" />
               <span className="text-black text-xl font-bold logo">
                 DineTaste
               </span>
