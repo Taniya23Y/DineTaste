@@ -70,7 +70,7 @@ const restaurants = [
     cuisine: "South Indian, Chinese, Beverages, Fast Food, Desserts",
     location: "Railway Station",
     image:
-      "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=200&q=80",
+      "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/xuekgyy6nfhmxf1j4xlr",
   },
   {
     id: 8,
