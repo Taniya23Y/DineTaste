@@ -67,7 +67,8 @@ A dynamic and responsive food ordering platform built with React, integrating Sw
 
 ## 🔗 Live Demo & Source Code
 
-- 🌐 **Live Site**: _[Your Deployed Link Here]_
+- 🌐 **Live Site**: [https://dine-taste.vercel.app](https://dine-taste.vercel.app)
+- 💻 **GitHub Repo**: [https://github.com/Taniya23Y/DineTaste](https://github.com/Taniya23Y/DineTaste)
 - 💻 **GitHub Repo**: [https://github.com/Taniya23Y/TasteTrek-Food-website](https://github.com/Taniya23Y/TasteTrek-Food-website)
 
 ---

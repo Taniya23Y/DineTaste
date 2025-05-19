@@ -12,24 +12,25 @@ const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
   };
 
   return (
-    <div>
-      {/* header  */}
-      <div className="w-7/12 container mx-auto my-4 bg-gray-50 shadow-lg p-4 ">
-        <div
-          className="flex justify-between cursor-pointer"
-          onClick={handleClick}
-        >
-          <span className="font-bold text-lg">
-            {data.title} ({data.itemCards.length})
-          </span>
-          <span>⬇️</span>
-        </div>
-
-        {/* Accordion Body  */}
-        {showItems && <ItemList items={data.itemCards} />}
+  <div className="w-full px-4 sm:px-6 lg:px-8 my-4">
+    <div className="max-w-4xl mx-auto bg-gray-50 shadow-lg p-4 rounded-lg">
+      {/* Header */}
+      <div
+        className="flex justify-between items-center cursor-pointer"
+        onClick={handleClick}
+      >
+        <span className="font-bold text-base sm:text-lg">
+          {data.title} ({data.itemCards.length})
+        </span>
+        <span className="text-lg">⬇️</span>
       </div>
+
+      {/* Accordion Body */}
+      {showItems && <ItemList items={data.itemCards} />}
     </div>
-  );
+  </div>
+);
+
 };
 
 export default RestaurantCategory;
